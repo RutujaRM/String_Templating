@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Parcel Sandbox</title>
+	<meta charset="UTF-8" />
+</head>
+<script>
+	function myfunction() {
+  const fname = document.getElementById("fname").value;
+  const lname = document.getElementById("lname").value;
+  const email = document.getElementById("email").value;
+
+  alert(
+    `Hello ${fname} ${lname}, we will reach out to you shortly a ${email}  ...`
+  );
+}
+</script>
+
+<body>
+	<div id="app"></div>
+  <form>
+		<label>Enter First Name :-
+			<input type="text" name="fname" id="fname"/>
+		</label></br></br>
+		<label>Enter Last Name :-
+				<input type="text" name="lname" id="lname"/>
+			</label> </br></br>
+			<label>Enter E-mail :-
+					<input type="email" name="email" id="email"/>
+				</label></br></br>
+				<input type = "button" onclick = "myfunction()" value = "Display" id="btn">
+  </form>
+
+	<script src="src/index.js">
+	</script>
+</body>
+
+</html>

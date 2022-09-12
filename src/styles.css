@@ -1,0 +1,11 @@
+body {
+  font-family: sans-serif;
+  background-color: cadetblue;
+}
+
+#btn {
+  height: 3rem;
+  width: 7rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
